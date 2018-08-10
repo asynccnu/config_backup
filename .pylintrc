@@ -1,4 +1,0 @@
-[pre-commit-hook]
-command=custom_pylint
-limit=8.0
-
