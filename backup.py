@@ -41,7 +41,7 @@ def upload(file_path, file_name):
     os.system(rmcommand)
 
 def main():
-    t = Timer(1, mongoexec)
+    t = Timer(100, mongoexec)
     t.start()
 
 if __name__ == '__main__':
