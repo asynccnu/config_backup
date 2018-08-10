@@ -38,6 +38,7 @@ def upload(file_path, file_name):
     assert ret['key'] == file_name
     assert ret['hash'] == etag(localfile)
     rmcommand = "rm " + file_path
+
     os.system(rmcommand)
 
 def main():
