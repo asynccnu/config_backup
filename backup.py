@@ -16,7 +16,7 @@ def mongoexec():
     print("Start")
     todaytime = datetime.datetime.today()
     file_name = "Manaconf" + "Y" + str(todaytime.year) + "M" + str(todaytime.month) + \
-                "D" + str(todaytime.day) + "H" + str(todaytime.hour)  + str(time.time())
+                "D" + str(todaytime.day) + "H" + str(todaytime.hour)
 
     _mongo_host = os.getenv("HOST")
     _mongo_port = os.getenv("PORT")
